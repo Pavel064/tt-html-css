@@ -1,14 +1,14 @@
 button {
-	padding: 1rem 1.56rem;
-	border-radius: 0.31rem;
+	padding: 1rem 1.5rem;
+	border-radius: 0.3rem;
 	border: none;
 	background-color: #FFB703;
-	font-size: 1.125em;
+	font-size: 1.1em;
 	color: #332416;
 }
 
 button:hover {
-	background-color: #e9a600
+	background-color: #e9a600;
 }
 
 button:active {
@@ -19,7 +19,7 @@ button:active {
 	display: inline-block;
 	background-color: #023047;
 	color: white;
-	padding: 0.75rem 1.25rem;
+	padding: 0.7rem 1.2rem;
 	margin-top: 2rem;
 	border: none;
 	border-radius: 4px;
@@ -34,8 +34,8 @@ button:active {
 .my-button:active {
 	background-color: #006d8e;
 }
-
+ /* добавить файл editor.config!! */
 ::selection {
-  background-color: #FFB703;
+	background-color: #FFB703;
 	color:#006d8e
 }
